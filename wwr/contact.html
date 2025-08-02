@@ -47,19 +47,33 @@
         </section>
 
         <section class="employee-info">
-            <h2>Employee Information</h2>
-            <p>For questions about trips, please contact:</p>
-            <ul>
-                <li>John Doe - Colorado River Specialist
-                    <img src="images/johndoe.jpg" alt="John Doe Profile" width="100">
-                </li>
-                <li>Mary Johnson - Snake River Specialist
-                    <img src="images/maryjohnson.jpg" alt="Mary Johnson Profile" width="100">
-                </li>
-                <li>Jane Smith - Salt River Specialist
+            <h2>Office Support</h2>
+            <div class="employee-grid">
+                <div class="employee">
+                    <img src="images/johndoe.jpg" alt="John Doe Profile" width="200">
+                    <div class="info">
+                        <h3>John Doe</h3>
+                        <p>Colorado River Specialist</p>
+                        <p>333-333-3333</p>
+                    </div>
+                </div>
+                <div class="employee reverse">
+                    <img src="images/maryjohnson.jpg" alt="Mary Johnson Profile" width="200">
+                    <div class="info">
+                        <h3>Mary Johnson</h3>
+                        <p>Snake River Specialist</p>
+                        <p>444-444-4444</p>
+                    </div>
+                </div>
+                <div class="employee">
                     <img src="images/janesmith.jpg" alt="Jane Smith Profile" width="100">
-                </li>
-            </ul>
+                    <div class="info">
+                        <h3>Jane Smith</h3>
+                        <p>Salt River Specialist</p>
+                        <p>777-777-7777</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="contact-form">
@@ -67,6 +81,7 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
+                    <div class="form-row">
                     <div class="form-item column2">
                         <label for="fullname">Full Name:</label>
                         <input type="text" id="fullname" name="fullname" required>
@@ -75,8 +90,10 @@
                         <label for="useremail">Email:</label>
                         <input type="email" id="useremail" name="useremail" required>
                     </div>
+                    </div>
                 </fieldset>
                 <fieldset> 
+                    <legend>Message</legend>
                     <p>What is the purpose of your message?</p>
                     <label>
                         <input type="radio" name="message-purpose" value="general-inquiry">
@@ -96,6 +113,7 @@
                 </div>
                 </fieldset>
                 <fieldset>
+                <legend>Subscribe</legend>
                 <div>
                     <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                     <input type="checkbox" id="subscribe" name="subscribe">
