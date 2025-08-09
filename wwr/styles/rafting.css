@@ -1,8 +1,8 @@
 :root {
     --primary-color: #0B4F6C;
-    --secondary-color: #A5E1F1;
-    --accent1-color: #FBFBFF;
-    --accent2-color: #B80C09;
+    --secondary-color: #5a9aab;
+    --accent1-color: #ececf3;
+    --accent2-color: #eb4946;
     --heading-font: 'Bebas Neue';
     --body-font: 'Lato';
 }
@@ -38,9 +38,21 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a{
+.socialmedia a {
+    display: inline-block;
+    width: 40px;  
+    height: 40px;
+    margin: 0 5px;
     text-decoration: none;
 }
+
+.socialmedia img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 
 .hero {
     position: relative;
@@ -115,6 +127,7 @@ footer {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;
+    width: 840px;
 }
 
 .history {
@@ -403,10 +416,32 @@ footer {
     border-radius: 8px;
 }
 
-.mockup-link {
+.siteplan{
     display: block;
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
     color: var(--accent1-color);
+}
+
+.herohome {
+    position: relative;
+}
+
+.herohome img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+call-to-action {
+    position: absolute;
+    top: 60%;
+    bottom: 20%;
+    left: 10%;
+    right: 10%;
+    padding:10px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: #090202;
 }
