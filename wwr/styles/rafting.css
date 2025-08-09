@@ -272,8 +272,8 @@ footer {
 }
 
 .employee img {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 12px;
   background-color: #f0f2f5;
 }
@@ -524,7 +524,7 @@ call-to-action {
 }
 
 .call-to-action p {
-  width: 50%;       /* Text box on right, half of container */
+  width: 50%;
   background-color: var(--accent1-color);
   color: var(--secondary-color);
   padding: 20px;
@@ -607,5 +607,12 @@ call-to-action {
 }
 
 .call-to-action.reversed {
-  flex-direction: row-reverse; /* image right, content left */
+  flex-direction: row-reverse;
+}
+
+.trip-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
