@@ -605,3 +605,7 @@ call-to-action {
   color: #66788a;
   line-height: 2;
 }
+
+.call-to-action.reversed {
+  flex-direction: row-reverse; /* image right, content left */
+}
