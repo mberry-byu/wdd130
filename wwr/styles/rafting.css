@@ -549,3 +549,59 @@ call-to-action {
   color: var(--accent2-color);
   text-decoration: none;
 }
+
+.trip-info {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.trip-info h2 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  text-align: left;
+}
+
+.trip-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.trip {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.trip.reverse {
+  flex-direction: row-reverse;
+}
+
+.trip img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #f0f2f5;
+}
+
+.trip .info {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.trip .info h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.trip .info p {
+  margin: 4px 0;
+  margin-bottom: 5px;
+  color: #66788a;
+  line-height: 2;
+}
